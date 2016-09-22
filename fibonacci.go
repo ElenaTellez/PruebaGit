@@ -2,8 +2,8 @@ package main
 
 import "fmt"
 
-// fib returns a function that returns
-// successive Fibonacci numbers.
+// fib devuelve una funcion sucesiva de los numeros de Fibonacci
+
 func fib() func() int {
 	a, b := 0, 1
 	return func() int {
@@ -13,7 +13,8 @@ func fib() func() int {
 }
 
 func main() {
+	
 	f := fib()
-	// Function calls are evaluated left-to-right.
+	// La funcion llamada es evaluada de izquierda a derecha
 	fmt.Println(f(), f(), f(), f(), f())
 }
