@@ -18,3 +18,4 @@ func main() {
 	// La funcion llamada es evaluada de izquierda a derecha
 	fmt.Println(f(), f(), f(), f(), f())
 }
+//Al pulpogato le gusta este lenguaje
